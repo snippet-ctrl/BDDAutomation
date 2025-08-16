@@ -7,6 +7,7 @@ public class LoginSteps {
     @Given("user is on login page")
     public void userIsOnLoginPage()  {
         System.out.println("On Login");
+        System.out.println("User is trying to input the credentials");
     }
 
     @When("user enters username and Password")
