@@ -8,6 +8,7 @@ public class LoginSteps {
     public void userIsOnLoginPage()  {
         System.out.println("On Login");
         System.out.println("User is trying to input the credentials");
+        System.out.println("User populated the credentials");
     }
 
     @When("user enters username and Password")
@@ -26,3 +27,4 @@ public class LoginSteps {
         System.out.println("I'm at Home Screen");
     }
 }
+
