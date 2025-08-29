@@ -18,7 +18,7 @@ public class TestSteps {
 
     @And("clicks on login button")
     public void clicksOnLoginButton() {
-        Systtem.out.println("Clicked Login Button");
+        System.out.println("Clicked Login Button");
 
     }
 
